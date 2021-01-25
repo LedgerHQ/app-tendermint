@@ -25,7 +25,7 @@ include $(BOLOS_SDK)/Makefile.defines
 APPNAME = "Tendermint"
 APPVERSION_M=0
 APPVERSION_N=9
-APPVERSION_P=0
+APPVERSION_P=1
 
 ifeq ($(TARGET_NAME),TARGET_NANOS)
 APP_LOAD_PARAMS = --appFlags 0x00 --delete $(COMMON_LOAD_PARAMS) --path "44'/118'"
