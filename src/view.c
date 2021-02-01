@@ -19,7 +19,7 @@
 #include "actions.h"
 #include "vote.h"
 
-#include "glyphs.h"
+#include "ux.h"
 #include "bagl.h"
 
 #include <zxmacros.h>
